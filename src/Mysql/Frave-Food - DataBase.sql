@@ -38,8 +38,8 @@ CREATE TABLE users
 (
 	id INT PRIMARY KEY AUTO_INCREMENT,
 	users VARCHAR(50) NOT NULL,
-	email VARCHAR(100) NOT NULL,
-	passwordd VARCHAR(100) NOT NULL,
+	email VARCHAR(100) ,
+	passwordd VARCHAR(100) ,
 	persona_id INT NOT NULL,
 	rol_id INT NOT NULL,
 	notification_token VARCHAR(255) NULL,

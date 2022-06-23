@@ -4,8 +4,8 @@
   "description": "Restaurant Backend ",
   "main": "index.js",
   "scripts": {
-    "start": "babel-node src/index.js",
-    "dev": "nodemon src/index.js --exec babel-node"
+    "start": "babel-node src/Index.js",
+    "dev": "nodemon src/Index.js --exec babel-node"
   },
   "author": "Frave Developer",
   "license": "ISC",
